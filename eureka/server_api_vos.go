@@ -69,14 +69,14 @@ type (
 
 func DefaultInstanceVo() *InstanceVo {
     ip := getLocalIp()
-    //hostname, err := os.Hostname()
-    //if err != nil {
-    //    log.Errorf("Failed to get hostname, err=%s, user ip as hostname, ip=%s", err.Error(), ip)
-    //    hostname = ip
-    //}
+    hostname, err := os.Hostname()
+    if err != nil {
+        log.Errorf("Failed to get hostname, err=%s, user ip as hostname, ip=%s", err.Error(), ip)
+        hostname = ip
+    }
     return &InstanceVo{
-        //Hostname:         hostname,
-        Hostname:         ip,
+        Hostname:         hostname,
+        //Hostname:         ip,
         App:              "",
         IppAddr:          ip,
         VipAddress:       ip,
