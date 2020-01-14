@@ -1,3 +1,6 @@
+github.com/golang/crypto v0.0.0-20180820150726-614d502a4dac h1:CTlcobgUKCEymD3P3693BUmy15cF1QiGji0PnANoptk=
+github.com/golang/crypto v0.0.0-20180820150726-614d502a4dac/go.mod h1:uZvAcrsnNaCxlh1HorK5dUQHGmEKPh2H/Rl1kehswPo=
+github.com/golang/net v0.0.0-20180826012351-8a410e7b638d h1:XXZ0nKFacC83c+kBG0i/rJdPj9HtnO0OKefFKaELC1M=
 github.com/golang/net v0.0.0-20180826012351-8a410e7b638d/go.mod h1:98y8FxUyMjTdJ5eOj/8vzuiVO14/dkJ98NYhEPG8QGY=
 github.com/miekg/dns v1.0.15 h1:9+UupePBQCG6zf1q/bGmTO1vumoG13jsrbWOSX1W6Tw=
 github.com/miekg/dns v1.0.15/go.mod h1:W1PPwlIAgtquWBMBEV9nkV9Cazfe8ScdGz/Lj7v3Nrg=

@@ -8,5 +8,8 @@ replace (
 
 require (
 	github.com/miekg/dns v1.0.15
+	golang.org/x/crypto v0.0.0-20180820150726-614d502a4dac // indirect
 	gopkg.in/resty.v1 v1.10.2
 )
+
+go 1.13
