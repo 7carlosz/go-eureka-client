@@ -1,4 +1,4 @@
-module github.com/HikoQiu/go-eureka-client/eureka
+module github.com/7carlosz/go-eureka-client/eureka
 
 replace (
 	golang.org/x/crypto v0.0.0-20180820150726-614d502a4dac => github.com/golang/crypto v0.0.0-20180820150726-614d502a4dac
