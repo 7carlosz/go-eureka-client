@@ -1,4 +1,4 @@
-### go-eureka-client
+### go-eureka-client for DOCKER
 
 Non-offical implementation of Spring Cloud Eureka client.
 
